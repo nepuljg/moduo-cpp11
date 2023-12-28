@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/Channel.cc.o -c /home/slow/Mmoduo/Channel.cc",
+  "file": "/home/slow/Mmoduo/Channel.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o -c /home/slow/Mmoduo/DefaultPoller.cc",
+  "file": "/home/slow/Mmoduo/DefaultPoller.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/EPollPoller.cc.o -c /home/slow/Mmoduo/EPollPoller.cc",
+  "file": "/home/slow/Mmoduo/EPollPoller.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/EventLoop.cc.o -c /home/slow/Mmoduo/EventLoop.cc",
+  "file": "/home/slow/Mmoduo/EventLoop.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/InetAddress.cc.o -c /home/slow/Mmoduo/InetAddress.cc",
+  "file": "/home/slow/Mmoduo/InetAddress.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/Logger.cc.o -c /home/slow/Mmoduo/Logger.cc",
+  "file": "/home/slow/Mmoduo/Logger.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/Poller.cc.o -c /home/slow/Mmoduo/Poller.cc",
+  "file": "/home/slow/Mmoduo/Poller.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/TcpServer.cc.o -c /home/slow/Mmoduo/TcpServer.cc",
+  "file": "/home/slow/Mmoduo/TcpServer.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/Timestamp.cc.o -c /home/slow/Mmoduo/Timestamp.cc",
+  "file": "/home/slow/Mmoduo/Timestamp.cc"
+}
+]
