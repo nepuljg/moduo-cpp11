@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/slow/Mmoduo/build",
+  "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/CurrentThread.cc.o -c /home/slow/Mmoduo/CurrentThread.cc",
+  "file": "/home/slow/Mmoduo/CurrentThread.cc"
+},
+{
+  "directory": "/home/slow/Mmoduo/build",
   "command": "/usr/bin/g++ -DMmoduo_EXPORTS  -g -fPIC -o CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o -c /home/slow/Mmoduo/DefaultPoller.cc",
   "file": "/home/slow/Mmoduo/DefaultPoller.cc"
 },

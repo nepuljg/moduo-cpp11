@@ -24,7 +24,7 @@ EPollPoller::~EPollPoller()
     ::close(epollfd_);   
 }
 // channel update remove => EventLoop 
-void updateChannel(Channel *channel)
+void EPollPoller::updateChannel(Channel *channel)
 {
      const int index = channel->index();
      LOG_INFO("fd=%d events=%d index=%d \n",channel->fd() , channel->events(), index);

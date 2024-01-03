@@ -83,10 +83,24 @@ CMakeFiles/Mmoduo.dir/Channel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mmoduo.dir/Channel.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slow/Mmoduo/Channel.cc -o CMakeFiles/Mmoduo.dir/Channel.cc.s
 
+CMakeFiles/Mmoduo.dir/CurrentThread.cc.o: CMakeFiles/Mmoduo.dir/flags.make
+CMakeFiles/Mmoduo.dir/CurrentThread.cc.o: ../CurrentThread.cc
+CMakeFiles/Mmoduo.dir/CurrentThread.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Mmoduo.dir/CurrentThread.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/CurrentThread.cc.o -MF CMakeFiles/Mmoduo.dir/CurrentThread.cc.o.d -o CMakeFiles/Mmoduo.dir/CurrentThread.cc.o -c /home/slow/Mmoduo/CurrentThread.cc
+
+CMakeFiles/Mmoduo.dir/CurrentThread.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mmoduo.dir/CurrentThread.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slow/Mmoduo/CurrentThread.cc > CMakeFiles/Mmoduo.dir/CurrentThread.cc.i
+
+CMakeFiles/Mmoduo.dir/CurrentThread.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mmoduo.dir/CurrentThread.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slow/Mmoduo/CurrentThread.cc -o CMakeFiles/Mmoduo.dir/CurrentThread.cc.s
+
 CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o: ../DefaultPoller.cc
 CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o -MF CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o.d -o CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o -c /home/slow/Mmoduo/DefaultPoller.cc
 
 CMakeFiles/Mmoduo.dir/DefaultPoller.cc.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/Mmoduo.dir/DefaultPoller.cc.s: cmake_force
 CMakeFiles/Mmoduo.dir/EPollPoller.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/EPollPoller.cc.o: ../EPollPoller.cc
 CMakeFiles/Mmoduo.dir/EPollPoller.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Mmoduo.dir/EPollPoller.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Mmoduo.dir/EPollPoller.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/EPollPoller.cc.o -MF CMakeFiles/Mmoduo.dir/EPollPoller.cc.o.d -o CMakeFiles/Mmoduo.dir/EPollPoller.cc.o -c /home/slow/Mmoduo/EPollPoller.cc
 
 CMakeFiles/Mmoduo.dir/EPollPoller.cc.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/Mmoduo.dir/EPollPoller.cc.s: cmake_force
 CMakeFiles/Mmoduo.dir/EventLoop.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/EventLoop.cc.o: ../EventLoop.cc
 CMakeFiles/Mmoduo.dir/EventLoop.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Mmoduo.dir/EventLoop.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Mmoduo.dir/EventLoop.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/EventLoop.cc.o -MF CMakeFiles/Mmoduo.dir/EventLoop.cc.o.d -o CMakeFiles/Mmoduo.dir/EventLoop.cc.o -c /home/slow/Mmoduo/EventLoop.cc
 
 CMakeFiles/Mmoduo.dir/EventLoop.cc.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Mmoduo.dir/EventLoop.cc.s: cmake_force
 CMakeFiles/Mmoduo.dir/InetAddress.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/InetAddress.cc.o: ../InetAddress.cc
 CMakeFiles/Mmoduo.dir/InetAddress.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Mmoduo.dir/InetAddress.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Mmoduo.dir/InetAddress.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/InetAddress.cc.o -MF CMakeFiles/Mmoduo.dir/InetAddress.cc.o.d -o CMakeFiles/Mmoduo.dir/InetAddress.cc.o -c /home/slow/Mmoduo/InetAddress.cc
 
 CMakeFiles/Mmoduo.dir/InetAddress.cc.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Mmoduo.dir/InetAddress.cc.s: cmake_force
 CMakeFiles/Mmoduo.dir/Logger.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/Logger.cc.o: ../Logger.cc
 CMakeFiles/Mmoduo.dir/Logger.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Mmoduo.dir/Logger.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Mmoduo.dir/Logger.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/Logger.cc.o -MF CMakeFiles/Mmoduo.dir/Logger.cc.o.d -o CMakeFiles/Mmoduo.dir/Logger.cc.o -c /home/slow/Mmoduo/Logger.cc
 
 CMakeFiles/Mmoduo.dir/Logger.cc.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Mmoduo.dir/Logger.cc.s: cmake_force
 CMakeFiles/Mmoduo.dir/Poller.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/Poller.cc.o: ../Poller.cc
 CMakeFiles/Mmoduo.dir/Poller.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Mmoduo.dir/Poller.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Mmoduo.dir/Poller.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/Poller.cc.o -MF CMakeFiles/Mmoduo.dir/Poller.cc.o.d -o CMakeFiles/Mmoduo.dir/Poller.cc.o -c /home/slow/Mmoduo/Poller.cc
 
 CMakeFiles/Mmoduo.dir/Poller.cc.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Mmoduo.dir/Poller.cc.s: cmake_force
 CMakeFiles/Mmoduo.dir/TcpServer.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/TcpServer.cc.o: ../TcpServer.cc
 CMakeFiles/Mmoduo.dir/TcpServer.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Mmoduo.dir/TcpServer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Mmoduo.dir/TcpServer.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/TcpServer.cc.o -MF CMakeFiles/Mmoduo.dir/TcpServer.cc.o.d -o CMakeFiles/Mmoduo.dir/TcpServer.cc.o -c /home/slow/Mmoduo/TcpServer.cc
 
 CMakeFiles/Mmoduo.dir/TcpServer.cc.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/Mmoduo.dir/TcpServer.cc.s: cmake_force
 CMakeFiles/Mmoduo.dir/Timestamp.cc.o: CMakeFiles/Mmoduo.dir/flags.make
 CMakeFiles/Mmoduo.dir/Timestamp.cc.o: ../Timestamp.cc
 CMakeFiles/Mmoduo.dir/Timestamp.cc.o: CMakeFiles/Mmoduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Mmoduo.dir/Timestamp.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Mmoduo.dir/Timestamp.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Mmoduo.dir/Timestamp.cc.o -MF CMakeFiles/Mmoduo.dir/Timestamp.cc.o.d -o CMakeFiles/Mmoduo.dir/Timestamp.cc.o -c /home/slow/Mmoduo/Timestamp.cc
 
 CMakeFiles/Mmoduo.dir/Timestamp.cc.i: cmake_force
@@ -198,6 +212,7 @@ CMakeFiles/Mmoduo.dir/Timestamp.cc.s: cmake_force
 # Object files for target Mmoduo
 Mmoduo_OBJECTS = \
 "CMakeFiles/Mmoduo.dir/Channel.cc.o" \
+"CMakeFiles/Mmoduo.dir/CurrentThread.cc.o" \
 "CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o" \
 "CMakeFiles/Mmoduo.dir/EPollPoller.cc.o" \
 "CMakeFiles/Mmoduo.dir/EventLoop.cc.o" \
@@ -211,6 +226,7 @@ Mmoduo_OBJECTS = \
 Mmoduo_EXTERNAL_OBJECTS =
 
 ../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/Channel.cc.o
+../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/CurrentThread.cc.o
 ../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/DefaultPoller.cc.o
 ../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/EPollPoller.cc.o
 ../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/EventLoop.cc.o
@@ -221,7 +237,7 @@ Mmoduo_EXTERNAL_OBJECTS =
 ../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/Timestamp.cc.o
 ../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/build.make
 ../lib/libMmoduo.so: CMakeFiles/Mmoduo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library ../lib/libMmoduo.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slow/Mmoduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../lib/libMmoduo.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Mmoduo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

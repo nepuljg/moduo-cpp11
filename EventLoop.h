@@ -52,6 +52,5 @@ private:
     Channel *currentActiveChannel_;
 
     std::vector<Functor>pending_;
-    std::mutex mutex_;
-    std::mutex mutex_;//互斥操作    
+    std::mutex mutex_;  
 };
